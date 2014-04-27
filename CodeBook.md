@@ -21,7 +21,7 @@ Generate Tidy Dataset
 ----------------
 These steps assume that you've cloned this Git repository on your system. After following steps to "Prepare Untidy Dataset" above, run the following commands in R prompt -
 
-* > source("<Your Git Repository Path>/peer-assignment-gcd/run_analysis.R")
+* > source("{Your Git Repository Path}/peer-assignment-gcd/run_analysis.R")
 * > runUCIAnalysis("tidyDataset.txt")
 
 This will create a new file "tidyDataset.txt" containing the required tidy dataset.
@@ -108,13 +108,13 @@ More details
 ---------------
 
 * It has 180 rows, for 30 subjects X 6 activities.
-* Subject is first column, and is labelled as 1,2,3.....30
-* Activity is second column, and can take following 6 values -
+* First column is "subject", and is labelled as 1,2,3.....30
+* Second column is "activity", and can take following 6 values -
   * LAYING
   * SITTING
   * STANDING
   * WALKING
   * WALKING DOWNSTAIRS
   * WALKING UPSTAIRS
-* Rest of the columns represent mean of values for respective subject and activity
+* Rest of the 66 columns are the measurements on mean and standard deviation in original data (i.e. the columns in original dataset containing mean() and std()). They represent mean of all values for respective subject and activity
 
