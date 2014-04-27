@@ -4,6 +4,7 @@ Peer Assignment for Getting and Cleaning Data
 This is the repository which contains solution of peer assignment for getting and cleaning data course in Coursera.
 
 This repository contains 2 files -
+
 1. CodeBook.md
 2. run_analysis.R
 
