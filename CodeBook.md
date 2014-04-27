@@ -116,5 +116,5 @@ More details
   * WALKING
   * WALKING DOWNSTAIRS
   * WALKING UPSTAIRS
-* Rest of the 66 columns are the measurements on mean and standard deviation in original data (i.e. the columns in original dataset containing mean() and std()). They represent mean of all values for respective subject and activity
+* Rest of the 66 columns are the measurements on mean and standard deviation in original data (i.e. the columns in original dataset containing mean() and std()). They represent average of all values for respective subject and activity
 
